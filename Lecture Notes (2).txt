@@ -1,0 +1,1537 @@
+
+Data can be any observation that has been recorded.++
+data->information->knowledge->wisdom
+e.g. 100121->10-01-21->birthday->purchase gift.
+
+1 person generates 40EB of data-
+1024mb->1 gb
+1024gb->1 tb
+1024tb->1 pb (peta byte) 
+if datasize range above 1 pb than its a bigdata
+1024pb->1 eb (exa byte).,and 1 person produce 40 eb of data.
+
+What is data?
+Data is a set of information. It's a collection of values that convey some information.Now, data alone is not information, data by itself is not information,
+alotof data together is also not information.data is a set of values that gives information,and it depends on how we interpret data so that it conveys some information
+which is of importance.
+Now, data values can be some kind of quantity,like weight,no.of students,sales,proit,etc.  is quantity.
+Or quality- thereare set standards to measure quality.,likeuality of drug,vaccine,etc.
+or Facts like your date of birth
+or statistics-like average salary of people in different states.
+
+Types of data-
+now,when we work on data,weneed to organize the data so that we can easily analyze our data.What we have seen is organizing our data into tabular format.
+Such kind of data is structured data. for eg, data stored in Excel sheets, SQl table, pandas dataframe,etc. 
+But it'snot always possible to organize our data in tabular fromat.Such kind of data is unstructured data.For eg.Graphs. When we use social media, we follow some uers,
+in the same way,there might be sme other user following us,This kind of info cannot be easily stored in tabular format or sturctured format.That is why,most of the
+social media people,store there data in graphs and that is Unstructured data.like videos,audios
+
+Semi-structured data-The data not completely unstructured like videos and audios,alsonot completely structred like excel sheets.for eg.JSON files.
+
+Now, example of data can be-Giving link foronline class, amazon products,stock markets,block cahin,railway pass,i.e. any data when analyzedgives some info.
+
+Now,how to collect data? giving reviews,through measurements,survey forms,or collected by noting some observations.
+
+Now,before analysing your data,umust clean the data,like removing null values, removing outliers,removing duplicates,etc.
+After cleaning our data,wemove to analysis of data.
+
+Now,difference between data,information,intelligence and knowledge is-
+Data regarding same theme or topic gives information like  we have data of name,ages,salary.Now if I say this data belongs tosome employee then it becomes information.
+Now, we draw some insights basedon this information, it becomes intelligence.Now we use this intelligence for some prediction,then thats knowledge.
+Because if we want to analyse our data,likemean medain mode,then that will give wrong results.
+
+
+
+Andrew NG,
+
+AI is research based industry.There is no exact aanswer.
+
+Data Analytics - data analyst: identify, collect, clean, analyze, and interpret data. needs Maths,Statistics,Business Expertise 
+(i.e. understand the problem from domain point of view by studying the data.i.e. understanding rows & cols)
+Tools required- Excel,Advance Excel, SQL, Tableau, PowerBi, and a little bit of programming.Dashboarding tools are excel,adv excel,tableau,power bi.
+
+Data Analyst-
+Data Analyst analyzes numeric data and uses it to help companies make better decisions.
+
+Data analysts are one of the data consumers. A data analyst answers questions about the present such as: what is going on now? What are the causes? Can you show me XYZ?
+What should we do to avoid/achieve ABC? What is the trend in the past 3 years? Is our product doing well?
+
+A data analyst’s job includes 3 main parts:
+
+Understand the metrics/business problem, i.e ask the right questions.
+Find out the answers or more insights from the data.
+Communication. This includes creating dashboards with appropriate visualisations and explaining them in an easy-understanding way to non-tech stakeholders.
+
+
+Skills requirements
+
+SQL: This is essential for all data-related roles to interact with databases.
+
+Data visualisation: The more important thing is knowing how to visualise the data in a proper way, rather than the tool you use. 
+Most companies have licensed Business Intelligence tools like Power BI, Tableau, Looker, Qlik, etc. 
+You don’t need to know how to use all of them. If you understand the core concepts of data analysis, it shouldn’t take you long to pick up any one of them.
+
+Domain knowledge: I’d say domain knowledge is much more critical for a data analyst than other roles.
+These kinds of domain knowledge are necessary to ask the right questions, to be able to find out insights and to contribute to business decisions.
+
+
+
+Data Scientist - Do Data Diagnostic,Data Prediction
+He is next to ceo.They take business decisions. Evrything Data Analyst knows + alot of programming+ m/c learning(nlp,compvision, deep learning),
+should of strong hold on algorithms for searching, sorting, finding also knows big data.
+
+Data scientists are another data consumer. Instead of answering questions about the present, 
+they try to find patterns in the data and answer the questions about the future, i.e prediction. 
+This technique has actually existed for a long time. You must have heard of it, it’s called statistics. 
+Machine learning and deep learning are the 2 most popular ways to utilise the power of computers to find patterns in data. 
+Data scientists also build products based on those predictions. For instance, a recommendation system predicts what you like, 
+a ranking system predicts the order of popularity, NLP predicts what a sentence means. 
+Data scientists build these products not to help make business decisions, but to solve business problems.
+
+Skills requirements:
+
+SQL: This is essential for all data-related roles to interact with databases.
+
+Statistics/Mathematics: You have to master statistics knowledge such as theories behind each machine learning method, probabilities, etc to solve more complex problems.
+This part is quite academic and theoretical, that’s why most of the data scientist roles would require a Master or PhD degree.
+
+Programming skills: To apply statistics knowledge to solve real-world problems, you have to equip yourself with programming skills. 
+Training models, writing algorithms, building next-generation products are all done on a laptop. Data science is a subject that combines computer science & statistics.
+Currently, Python and R are the most popular programming language.
+Software development: Just like any other engineer, software development skills are essential to cooperate with other stakeholders. 
+Git workflow, CI/CD, DevOps, etc are all basic in a data scientist’s arsenal.
+
+Data Engineer - Previously,data eng was referred as SQL developer.He sould know,mathematics and Statistics knowledge., RDBMS, Data EXtraction(i.e.Web Scrapping),
+There job role is to collect the data and give to data analyst or data scientist.
+
+everything that happens to the data before reaching the database is taken care of by data engineers.
+
+A data engineer cares most about:
+
+How to ingest data from disparate sources to one single destination for analysts and scientists to consume.
+Make sure the data pipeline, storage, data structure are optimised and most cost-efficient for the company.
+Make sure the data that analysts and scientists use is the most updated, validated and accountable. They won’t make wrong decisions because the data is incorrect.
+
+Skills requirements
+
+SQL: In addition, a data engineer should understand the ins and outs of each different database, when to use which, what are their edges. 
+
+Sometimes need to know DBA (database administration) commands like monitoring accesses of team members, writing procedures, 
+maintaining schemas to optimise database performance.
+
+Cloud computing: As now nearly all of the data is on the cloud, from storage to database to warehousing, engineers have to be very familiar with the cloud computing
+technology. AWS (Amazon), Azure (Microsoft), and GCP (Google) are the 3 most popular cloud services in the market. This also includes the application of parallel computing (Hadoop, Spark) and big data.
+
+Software development: Same as the abovementioned.
+
+
+Data Analytics->level1- MIS(Management Information System),level2->DescriptiveAnalysis,level3->Data Visualization/Dashboard ,
+level4->predictive modelling predicts what is likely to happen.This is by 
+ML engineer, Level5-> big data : gives ans of what can be done using this data. For which, we use hadooop. 
+
+Statistician-In the domain of statistics, data is costly,U r paid to collect the data, and do MIS.
+
+ML Engineer-Here,data is cheap.U r paid to aska right ques and draw insights from data.
+
+
+Now, calculating mean median variance stddev comes under Descriptive statistics.
+
+But what is statistics-Statistics is To collect, Analyse,Summarize,interpret and to draw conclusion from data. i.e. we are studying sample of data.
+
+Population is a universalset. Sample is subset. Statistics is study of sample.Parameter is mu for mean in population.Statistics we have xdash -mean.
+std div is sigma in parameter. S is std dev in sample
+
+population	  sample
+universal set	  sub set
+parameter	  statistics
+mu -mean	  Xbar
+sigma -std dev	  S
+Nbar - population (N-1)bar
+var-
+  (x-xhat)^2/N    (x-xhat)^2/N-1
+
+
+
+
+Amazon Go Shopping Mart eg
+
+Andrew NG,
+
+AI is research based industry.There is no exact aanswer.
+
+Data Analytics - data analyst: identify, collect, clean, analyze, and interpret data. needs Maths,Statistics,Business Expertise 
+(i.e. understand the problem from domain point of view by studying the data.i.e. understanding rows & cols)
+Tools required- Excel,Advance Excel, SQL, Tableau, PowerBi, and a little bit of programming.Dashboarding tools are excel,adv excel,tableau,power bi.
+
+Data Analyst-
+Data Analyst analyzes numeric data and uses it to help companies make better decisions.
+
+Data analysts are one of the data consumers. A data analyst answers questions about the present such as: what is going on now? What are the causes? Can you show me XYZ?
+What should we do to avoid/achieve ABC? What is the trend in the past 3 years? Is our product doing well?
+
+A data analyst’s job includes 3 main parts:
+
+Understand the metrics/business problem, i.e ask the right questions.
+Find out the answers or more insights from the data.
+Communication. This includes creating dashboards with appropriate visualisations and explaining them in an easy-understanding way to non-tech stakeholders.
+
+
+Skills requirements
+
+SQL: This is essential for all data-related roles to interact with databases.
+
+Data visualisation: The more important thing is knowing how to visualise the data in a proper way, rather than the tool you use. 
+Most companies have licensed Business Intelligence tools like Power BI, Tableau, Looker, Qlik, etc. 
+You don’t need to know how to use all of them. If you understand the core concepts of data analysis, it shouldn’t take you long to pick up any one of them.
+
+Domain knowledge: I’d say domain knowledge is much more critical for a data analyst than other roles.
+These kinds of domain knowledge are necessary to ask the right questions, to be able to find out insights and to contribute to business decisions.
+
+Data Scientist - He is next to ceo.They take business decisions. Evrything Data Analyst knows + alot of programming+ m/c learning(nlp,compvision, deep learning),
+should of strong hold on algorithms for searching, sorting, finding also knows big data.
+
+Data scientists are another data consumer. Instead of answering questions about the present, 
+they try to find patterns in the data and answer the questions about the future, i.e prediction. 
+This technique has actually existed for a long time. You must have heard of it, it’s called statistics. 
+Machine learning and deep learning are the 2 most popular ways to utilise the power of computers to find patterns in data. 
+Data scientists also build products based on those predictions. For instance, a recommendation system predicts what you like, 
+a ranking system predicts the order of popularity, NLP predicts what a sentence means. 
+Data scientists build these products not to help make business decisions, but to solve business problems.
+
+Skills requirements:
+
+SQL: This is essential for all data-related roles to interact with databases.
+
+Statistics/Mathematics: You have to master statistics knowledge such as theories behind each machine learning method, probabilities, etc to solve more complex problems.
+This part is quite academic and theoretical, that’s why most of the data scientist roles would require a Master or PhD degree.
+
+Programming skills: To apply statistics knowledge to solve real-world problems, you have to equip yourself with programming skills. 
+Training models, writing algorithms, building next-generation products are all done on a laptop. Data science is a subject that combines computer science & statistics.
+Currently, Python and R are the most popular programming language.
+Software development: Just like any other engineer, software development skills are essential to cooperate with other stakeholders. 
+Git workflow, CI/CD, DevOps, etc are all basic in a data scientist’s arsenal.
+
+Data Engineer - Previously,data eng was referred as SQL developer.He sould know,mathematics and Statistics knowledge., RDBMS, Data EXtraction(i.e.Web Scrapping),
+There job role is to collect the data and give to data analyst or data scientist.
+
+everything that happens to the data before reaching the database is taken care of by data engineers.
+
+A data engineer cares most about:
+
+How to ingest data from disparate sources to one single destination for analysts and scientists to consume.
+Make sure the data pipeline, storage, data structure are optimised and most cost-efficient for the company.
+Make sure the data that analysts and scientists use is the most updated, validated and accountable. They won’t make wrong decisions because the data is incorrect.
+
+Skills requirements
+
+SQL: In addition, a data engineer should understand the ins and outs of each different database, when to use which, what are their edges. 
+
+Sometimes need to know DBA (database administration) commands like monitoring accesses of team members, writing procedures, 
+maintaining schemas to optimise database performance.
+
+Cloud computing: As now nearly all of the data is on the cloud, from storage to database to warehousing, engineers have to be very familiar with the cloud computing
+technology. AWS (Amazon), Azure (Microsoft), and GCP (Google) are the 3 most popular cloud services in the market. This also includes the application of parallel computing (Hadoop, Spark) and big data.
+
+Software development: Same as the abovementioned.
+
+
+Data Analytics->level1- MIS(Management Information System),level2->DescriptiveAnalysis,level3->Data Visualization/Dashboard ,
+level4->predictive modelling predicts what is likely to happen.This is by 
+ML engineer, Level5-> big data : gives ans of what can be done using this data. For which, we use hadooop. 
+
+Statistician-In the domain of statistics, data is costly,U r paid to collect the data, and do MIS.
+
+ML Engineer-Here,data is cheap.U r paid to aska right ques and draw insights from data.
+
+python -m pip install -upgrade pip
+
+or
+
+python3 -m pip install -upgrade pip
+
+
+Numpy is python's external module , u first need to  install it.
+
+python -m pip install jupyter
+
+
+“ndarray,”  is shorthand for “N-dimensional array.” An N-dimensional array is simply an array with any number of dimensions.
+You might also hear 1-D, or one-dimensional array, 2-D, or two-dimensional array, and so on. The NumPy ndarray class is used to represent both matrices and vectors. 
+A vector is an array with a single dimension (there’s no difference between row and column vectors),
+while a matrix refers to an array with two dimensions. For 3-D or higher dimensional arrays, the term tensor is also commonly used.
+
+Numpy  it’s faster than regular Python arrays, which lack numpy’s optimized and pre-compiled C code that does all the heavy lifting. 
+Another reason is that numpy arrays and operations are vectorized, which means they lack explicit looping or indexing in the code.
+This makes the code not only more readable, but also more similar to standard mathematical notation. 
+
+For two arrays A and B of the same size, if we wanted to do a vector multiplication in Python:
+
+c = []
+for i in range(len(a)):
+ c.append(a[i]*b[i])
+
+
+In numpy, this can simply be done with the following line of code:
+
+c = a*b
+
+Numpy makes many mathematical operations used widely in scientific computing fast and easy to use, such as:
+
+Vector-Vector multiplication
+Matrix-Matrix and Matrix-Vector multiplication 
+Element-wise operations on vectors and matrices (i.e., adding, subtracting, multiplying, and dividing by a number )
+Element-wise or array-wise comparisons
+Applying functions element-wise to a vector/matrix ( like pow, log, and exp)
+A whole lot of Linear Algebra operations can be found in NumPy.linalg
+Reduction, statistics, and much more
+
+
+vector 1 d
+Matrix 2 D
+Tensors more than 2 d
+---------------
+Lecture2
+-------------------
+
+pandas.ipynb
+pandas1.ipynb
+
+
+
+
+Series- Series is collection of values. There are many typesof series. At initial level when we try to use is individual series.For eg. for 100 students in my 
+class ,I conducted an exam of 10  marks. Now, I ask them individually,what marks they got? That is,keeping atrackof each and every data.It's darwback is
+it's time consuming and we cannot draw any conclusion out of it.Data is maintained in random format.
+
+lly, Discrete series - Creating two cols for  marks and no. of students.Like-
+
+Marks  No.of Students
+1	2
+2	2
+3	4
+4	1
+5	6
+6	7
+7	7
+8	3
+9	2
+10	1
+
+It gives insight about the class like, many students got above 4 marks.
+
+Third,is continuous series , whichis inclusive continuous series and exclusive continuous series.Thisis for maintaing records with lfoating point numbers or
+containing decimal.
+Marks	No.of Students
+0-1
+2-3
+4-5
+6-7
+8-9
+above 9
+
+Exclusive series is like-
+0-1==============> 0-0.9
+1-2==============> 1-1.9
+2-3
+3-4
+4-5
+5-6
+6-7
+7-8
+8-9
+9-10
+
+
+Valuecounts of pandas give discrete series as o/p.
+
+Types of data in Maths is- 1.Categorical 2. Numerical
+Categorical data- Here we talk about classification or group.
+Numerical is further divided into- Discrete and continuous data.Discrete is a whole no. And continuous can have decimal point.
+
+e.g.no.of students in class cannot be in decimal.This is a type of discrete data. Age or weight can be in decimal.Then its continuous.
+
+Now,when it comes to level of measurement of data,then the 2 differrent ways are- we can measure a data based on quality,which is Qualitative data,and 2, Based 
+on quantity, Quantitative data.
+
+Qualitative is again divided into Nominal and Ordinal data. Que is which season come first?It's a cycle, right. So such kind of data , which is in cyclic form
+is a Nominal data.Ordinal data has specific order.
+
+Quantitative data,can be measured with nos.like, duration or speed. It's divided into interval and ratio. Interval is related to time. Interval w.r.t time.
+In Interval, time duration is fixed.
+Ratio talks about how many. Ratio talks about no.of times.
+
+
+
+Statistics--------Desc Statistics.png
+
+Statistics is the area of applied math that deals with the collection, organization, analysis, interpretation, and presentation of data.
+
+descriptive statistics focus on describing the visible characteristics of a dataset (a population or sample). 
+Meanwhile, inferential statistics focus on making predictions or generalizations about a larger dataset, based on a sample of those data. 
+Before we go explore these two categories of statistics further, it helps to understand what population and sample mean. Let’s find out. 
+
+
+Criterion to choose sample from a Popuation is it should be in random.If U set is of size N,then sample size should be N-1.
+Population is a universalset. Sample is subset. Statistics is study of sample.Parameter is mu for mean in population.Statistics we have xdash -mean.
+std dic is sigma in parameter. S is std dev in sample
+
+population	  sample
+universal set	  sub set
+parameter	  statistics # studying population is Parameter, in statistics we study samples.
+mu -mean	  xbar
+sigma -std dev	  S
+Nbar - population (N-1)bar
+var-
+  (x-mu)^2/N    (x-xhat)^2/N-1
+
+
+Descriptive statistics is how well we can describe our data by concepts like- Measure of central dependency, dispersion,etc.
+
+
+1+2+3+4+5=15=total
+15/5=3=mean
+(3-1)^2+(3-2)^2+(3-3)^2+(3-4)^2+(3-5)^2=4+1+0+1+4=10/5=2=var
+sqrt(2)=1.414=std dev
+
+Go through following link for eg.--
+
+https://www.khanacademy.org/math/statistics-probability/summarizing-quantitative-data/variance-standard-deviation-sample/a/population-and-sample-standard-deviation-review#:~:text=If%20the%20data%20is%20being,n%2D1%20n%E2%88%921%20.
+
+
+
+Measure of Central Tendency-- A single value that represents a group of value. with the help of Mean,Median and Mode.
+
+Mean-or avg is sum of all the observations/(total no.of observation) =>(1+2+3+4+5)/5=3.The story is like-
+The youngest person is 1 year old and eldest is 5 years old and the avg age of people is 3.
+
+std dev=> 
+1-3=-2
+2-3=-1
+3-3=0
+4-3=1
+5-3=2
+
+Squaring above nos,gives 4+1+0+1+4=10---------->10/5=2--------->sqrt(2)=1.44this is std dev, and var is 2.
+Mean is the avg of the range of given data values.
+Variance gives how far the data values are from the mean.
+Std dev gives the amount of spread of data from mean.
+
+the template of story telling is-
+The given data consists of _ observations where the min value is _  and max value is _. The average value of sample data is concentrated around _.
+
+Median- It's the middle value Arange elements is increasing or decreasing order. 12,13,89,45,34,21-> 12,13,21,34,45,89. Now,to cal median,since
+6 values are there, 21 and 34 are central values. (21+34)/2 give median value.,22.5. This is also 50 percentile value. 50% people are below 22.5
+and 50% are above 22.5
+
+Template-
+From the given data, we can conclude that, the given data is concentrated around 22.5, with 50% people are below 22.5 and 50% are above 22.5.
+
+Mode isthe most frequent value.e.g.12,13,89,45,34,21,34----->Mode is 34-->we have more of middle aged people in our sample.
+
+------------------
+Descriptive Statistics
+----------------------
+import pandas as pd
+import numpy as np
+
+l=[60,82,82,84,88,90,90,92,93,97]
+
+df=pd.DataFrame(l)
+df.describe()
+
+Whiskers boxplot or BoxPlot-------For calcuating the spread of data.Tells dispersion of data. This concept of Whiskers boxplot comes from mean median mode and 
+also the outliers, which are also the extreme values.
+This boxplot helps us to find lower and upper extreme values,below or above of such values are outliers.
+
+It's necessary to treat outliers because they can create a misinterpretation of data. Thus it helps us to set a range of valid values.
+
+https://analyticsindiamag.com/complete-guide-to-descriptive-statistics-in-python-for-beginners/#:~:text=Descriptive%20statistics%3A%20Summarization%20of%20data,Probability%20Theory%3A%20Likelihood%20estimation
+
+Outlier removal-
+
+60,82,84,82,88,90,90,92,93,97
+
+for median arange - 60,82,82,84,88,90,90,92,93,97. ->88+90/2=89. 89 is the median. Now, median is 50 percentile. Now, median values for-60,82,82,84,88 is 82 
+and for 90,90,92,93,97 is 92.Now, 82 is the 25 percentile or Q1 and 92 is the 75 percentile or Q3. Median is Q2.
+
+Make a diagram to show.
+
+Now, IQR - Inter Quartile range is-- Q3-Q1=92-82= 10
+Now,to figure out value of lowest quartile is- Q1-1.5*IQR=82-1.5*10=67 is the value of lowest quartile and value less than this value is outlier.
+Now,upper quartile is -Q3+1.5*IQR=92+1.5*10=107.Any value above than 107 is an outlier.
+
+Show through diagram.
+
+Therefore,in our data,60 is an outlier.
+
+Percentile 95 percentile means, better than 95% of the crowd.
+
+Skewness--
+
+Related to the distribution of data. Normal Distribution-On dividing normal curve from the middle,both the sides are symmetrical. Therefore, 0 skewness.
+Here, mean=median=mode. Outliers might be in both side.
+Skewness measures asymmetry . 3 types of skewness are- +ve skewness or right skewness .mode<median<mean.Outliers liesin right side.
+Left side skewness ornegative skewness- mean<median<mode.Outliers in left side.
+
+Mean of 
+60,82,84,82,88,90,90,92,93,97 is- 85.8.Median value is 89. mean<median.therefore, outliers on left side.
+
+Mesure of Dispersion-Dispersion/Distance/Difference/Error/Deviation
+
+Variance  				Standard Deviation
+mean squred deviation or error        sq root of variance or root mean sqred deviation
+
+write formula for both.
+
+We can interpret std deviation on graph better than variance.
+
+Variance gives deviation or spread of data from each the datapoint.
+
+Std dev tells what isthe avg distance of the datapoints fromthe mean.
+
+High variance has more spread fromleft to right on a graph. Dat ismore scattered.
+
+for low variance, height is more.
+
+
+
+--------------
+Empirical Rule-
+-------------
+
+in df.describe(), we get mean, std,25%,etc. std tells std avg distance of the data point from the mean.
+e.g. 30,35,40,45,50,55,60,65,70,75,80
+Let's say the avg value of series is 50 and std dev is 10. these are just some random variables. Now, how to interpret this value is- by empirical rule or 3 sigma rule-
+It is also reffered as 68-95-99.7 rule. For a normal distribution, all the observed data will fall with in 3 std dev of the mean or of the avg.
+
+Std dev is nothing but the difeerence between data point from the mean. 
+
+Let's say the avg value of series is 50 and std dev is 10.   50+10---50-10 is the range.
+
+68% of the observation falls with in the first std dev,95 % observation,falls within first two std dev, and 99.7 % of the observation falls within last 3. These are
+used to set upper and lower limit. Now,my 1 std dev is 60-40..here I am 68% sure. For 95% sure take,2 std dev, suggests price range may vary from- 70-30 lakhs.
+
+In inferential statistics ,im drawing conclusion on my data ,toget the rough estimate we canuse empirical value.
+
+U can showthe diagram on normal data distribution..
+
+------------------
+practical
+-------------------
+DescriptiveStatistics.ipynb------------colab
+-------------------------------
+==============================
+
+Type of Dataset-
+------------------
+Now,let'ssay we want to read a dataset from internet, and not download it, then iris.data is the name of the dataset.Copy the path with iri.data
+in colab
+
+and load data as in colab as shown.
+
+-------------------------
+
+Show uploading different files.
+
+sample_data
+chiporders.tsv
+drinks.csv
+exbook.xlsx
+psd.user
+simple.json
+simple_records.json
+
+tsv is tab seperated values
+
+id	name	age
+1	Rahul	10
+
+
+csv is comma seperated values
+
+id,name,age
+1,Rahul,10
+
+JSON data is a list of dictionaries ,if only dictionaries. e.g.
+
+simple_records.json
+
+{"name": "Andew", "age": 12, "grade": "A"}
+{"name": "Bhuvan", "age": 18, "grade": "B"}
+{"name": "Clinton", "age": 11, "grade": "A"}
+
+simple.json
+
+[{"name": "Andew", "age": 12, "grade": "A"}, {"name": "Bhuvan", "age": 18, "grade": "B"}, {"name": "Clinton", "age": 11, "grade": "A"}]
+
+See google colab DescriptiveStatistics.ipynb for this section.
+------------------------------------------------------------------------
+
+========================================================================
+4. Pandas Operations
+========================================================================
+
+Go to pandas folder
+
+Due to pandas u can excel ur data science module entirely.It is that powerful. Entire data analysis can be performed using jus one single module,i.e.pandas. 
+But in order to undersand this pandas library and perform operations on pandas we should must have some familiarity with numpy. 
+First,the candidiate should be aware of the data structure that we have in pandas.Second u should know about different file reading techniques in pandas. 
+Third, different operations in pandas like adding a col, deleting a col, resetting index,groupby , value count, sorting,loc,iloc,etc.
+Fourth, advance techiques off python.
+
+Different data structures of python-
+ series-1 d datastructure
+ dataframe -2 dimensional data structure
+ panel- n dimensional data structure
+ full form of pandas is panel data.
+
+Series is nothing but collection of values. All the statistical operation like measure of central tendency,correlation operation,etc. can be performed on series.
+
+Now, for using pandas , we need to import pandas and also numpy.
+
+import numpy as np
+import pandas as pd
+
+Now, if u want to create a series, write like-
+
+pd.Series()  # this creates an empty series.
+
+
+
+But there is a warning msg.And i don't want to see such msgs.
+So include-
+import warnings
+warnings.filterwarnings("ignore")
+
+
+pd.Series()
+
+Creating series using list.
+
+names=["Jay","Raj","Suraj","Raj","Mithilesh"]
+pd.Series(names)---------------------------------------------o/p
+
+0          Jay
+1          Raj
+2        Suraj
+3          Raj
+4    Mithilesh
+dtype: object
+
+The difference between list and series is, u also get index no.
+
+Indexing follows the same---
+
+names[2]
+
+Suraj------------------------------------------------------------o/p
+
+pd.Series(data=names,index=["a","b","c","d","e"])
+
+a          Jay---------------------------------------------------o/p
+b          Raj
+c        Suraj
+d          Raj
+e    Mithilesh
+dtype: object
+
+Same series can be created using dictionary as well. Index will become keys.
+
+d={"a":"Jay",
+   "b":"kumar",
+   "c":"suraj",
+   "d":"raj",
+   "e":"mithilesh"}
+
+pd.Series(d)
+
+a          Jay
+b        kumar
+c        suraj
+d          raj
+e    mithilesh
+dtype: object
+
+Now,if we want value 5 for eachindex,then- 
+
+pd.Series(5,index=["a","b","c","d","e"])
+
+a    5
+b    5
+c    5
+d    5
+e    5
+dtype: int64
+
+Now, how to create a dataframe--
+
+pd.DataFrame()------------- gives empty dataframe.
+
+Now,to create a dataframe-
+
+pd.DataFrame(names)
+
+0	Jay
+1	Raj
+2	Suraj
+3	Raj
+4	Mithilesh
+
+Creating dataframe using list of list-
+
+d=[
+   ["Jay",89,25],
+   ["Kumar",48,89],
+   ["Prateek",30,20],
+   ["Sura",89,90],
+   ["Raj",90,95]
+   ]
+
+pd.DataFrame(d)
+
+
+	0	1	2
+0	Jay	89	25
+1	Kumar	48	89
+2	Prateek	30	20
+3	Sura	89	90
+4	Raj	90	95
+
+By,default the col name is index no.of that col.To assign customize col names, do like---
+
+colname=["Name","Python","Machne Learning"]
+pd.DataFrame(d,columns=colname)
+
+	Name	Python	Machne Learning
+0	Jay	89	25
+1	Kumar	48	89
+2	Prateek	30	20
+3	Sura	89	90
+4	Raj	90	95
+
+Now,we can create df using dictionary also--
+
+d={
+    "Name":["Jay","Kumar","Prateek","Suraj","Raj"],
+   "Python":[89,48,30,89,90],
+   "Machin Learning":[25,89,20,90,95]
+}
+
+pd.DataFrame(d)
+
+
+	Name	Python	Machin Learning
+0	Jay	89	25
+1	Kumar	48	89
+2	Prateek	30	20
+3	Suraj	89	90
+4	Raj	90	95
+
+
+No, using the list,u have to give the i/p row wise,
+but,using dictionary,u give values colwise.
+
+Now,lets create 1 more dataframe--
+
+Shortest wy of creating db,is by using randn function-- randn gives normally distributed values
+
+np.random.randn(10,4)-----10 rows 4 cols.
+
+d=np.random.randn(10,4)
+pd.DataFrame(d)
+
+
+	   0		   1		    2		    3
+0	0.416280	0.706713	0.685378	-1.355652
+1	-0.297824	-0.540787	2.889118	0.332497
+2	-1.940370	0.600827	0.965015	-0.944189
+3	-0.432244	0.167701	2.017757	-0.084042
+4	1.635362	-0.687073	-0.462507	0.075670
+5	-0.563246	-1.572259	-1.109178	-1.875766
+6	0.459787	-0.942161	0.224700	0.356971
+7	0.793468	1.056210	0.082346	0.051603
+8	-0.407020	1.945698	0.170718	0.767546
+9	1.724876	-0.845114	-0.889160	0.461471
+
+d=np.random.randn(10,4)
+df=pd.DataFrame(d,columns=['A','B','C','D'])
+df
+
+		A		B		C	    D
+0	1.457873	1.060265	0.153796	-0.061964
+1	-0.319433	-1.050106	0.452957	0.480886
+2	0.698960	1.953967	-1.138944	1.407916
+3	2.054190	-0.033130	-0.942089	-1.753508
+4	0.772281	-1.494829	-0.307122	-0.153724
+5	-0.870550	-0.494507	0.875276	-0.220877
+6	-0.693632	0.854065	-0.837807	0.335520
+7	-1.427086	0.558379	-1.599293	0.697791
+8	1.397270	0.701513	1.840833	-1.279553
+9	-0.488211	1.422182	0.194490	0.165756
+
+Above is a shortest way to create a df.
+
+Now, saving this df-
+
+df.to_csv("randomdata.csv")
+
+Now,if i don't want to inclued index as a column.
+
+df.to_csv("randomd.csv",index=False)
+
+Now,when u r working with google colab, u need to first load the data in colab.
+
+tsv is tab seperated values
+
+name	python	ml
+Jay	50	60
+
+csv is comma seperated values
+
+name,python,ml
+Jay,50,60
+
+excel
+
+json----list of dictionaries. Key is col name
+
+[
+  {"name":"Jay","python":50,"ml":60
+  }
+]
+
+
+and unknown file
+
+are types of files, to read data.
+
+All of these datafiles are oftext type.
+
+Upload chiporders.tsv
+
+
+df = pd.read_table("chiporders.tsv")  # to read tsv files
+
+df.head(8) # getting first 8 rows
+
+df.tail(8)  # for getting last 8 rows
+
+df.sample(5)   # for getting random 5 rows
+
+pd.read_table("drinks.csv", sep=",").head()    # for reading csv file with read_table
+
+pd.read_csv("drinks.csv").head()      # or u can use read_csv
+
+Now , to read excel file, we need to install certain packages, xlrd and openpyxl
+
+
+!pip install xlrd
+
+!pip install openpyxl
+
+pd.read_excel("exbook.xlsx", sheet_name="Sheet1")   # exbook.xlsx has 3 sheets. By default pd.read_excel read sheet1, but for reading specific sheet, use sheet_name.
+
+Now, many times we need to download data from internet, like from kaggle, uci machine learning dataset.
+
+Like, iris.data which is a classification data.
+
+Now, before working on any data, u should must know the metadata of the data.The iris data set contains 3 classes of 50 instances each,
+where each class refers to a type of iris plant. One class is linearly separable from the other 2; the latter are NOT linearly separable from each other.
+
+Now, I don't want to download the data.
+
+https://archive.ics.uci.edu/ml/machine-learning-databases/iris/ ------------------------copy this link and add iris.data to the url,then it will not download the
+zip file of data. 
+
+path = "https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data"
+
+If the data is unknown and fileformat is unknown, then read the data using read_table. 
+
+pd.read_table(path)
+
+o/p shows that it has comma seperated values.
+
+pd.read_table(path,sep=',')
+
+but now, the o/p shows that, pandas is taking 1 row as Col name, Therefore,
+
+pd.read_table(path,sep=',',header=None)
+
+but now, index 0,1,2 is coming as col name. But I want my customized name. Now, if I go back to the site, there are already attribute information given.
+
+colname = ["sepal length", "sepal width", "petal length", "petal width", "class"]
+
+pd.read_table(path, sep=",", header=None, names=colname)
+
+
+Now, we have an unknown datafile psd.user
+
+pd.read_table(psd.user)
+
+On running, we see, seperator that is used is pipe |.
+
+pd.read_table("psd.user", sep="|")
+
+Now, for header and col_names--
+
+colname = ["ID","Age", "Gender", "occupation", "zipcode"]  # based on the data, we can give col_name.
+pd.read_table("psd.user", sep="|", header=None, names=colname)
+
+Jupyter notebook too allows to read any kind of dataformat. U can open in that too.
+
+pd.read_json("simple.json") # 1 single json, dictionaries wrapped inside list. 1 json there.
+
+pd.read_json("simple_records.json", lines=True) # many dictionaries ,not wrapped in list. Therefore, every dictionary is json and we have multiple json file. 
+
+#lines=True means ignore the new lines and consider each dictionary.
+
+If there are multiple hierarchies in json file then we need to import json module and proceed with its help.
+
+import pandas as pd
+import numpy as np
+
+l=[60,82,82,84,88,90,90,92,93,97]
+
+df=pd.DataFrame(l)
+df.describe()
+
+df.hist()
+
+
+
+df = pd.read_csv("movies.csv")
+
+df.head()
+
+df.shape # gives no. of rows and cols in df
+
+df.dtypes  # datatype of each col. object is an arbitrary datatype which represents a collection
+
+df.columns # gives all the cols
+
+df.info()  # gives all the info of df. In content-rating col  , 3 rows are missing. U r supposed to write the interpretation like--
+
+#from the given data we can say that,
+#The dataset has 979 row and 6 columns
+#Most of the columns has object datatype which is an arbitary datatype which represents a collections
+#there are few columns with int & float type as well
+#also in content rating column there are 3 missing values
+
+df.head()
+
+# dot notation for selecting col. Avoid using it. For e.g. df.shape , df.duration, duration is col name many times it can create confusion
+# bracket notation for selecting col.
+
+df.duration
+
+df.shape
+
+df["duration"]
+
+df["duration"].mean()
+
+df["duration"].median()
+
+df["duration"].mode()
+
+df["duration"].std() 
+
+df.describe()  # gives descriptive statistics,i.e. information of all the cols in terms of mean , median mode,
+
+#There are overall 979 samples in the dataset
+#The avg of star rating is concentrated around 7.8 i.e overall the user are satisfied with movies.
+#the avg star rating may vary between 7.5 - 8.1
+#the star ratings ranges between 7.4 - 9.3
+#star rating exhibits -ve skewness since, median is greater then mean
+#duration is positively
+#50% star rating is below 7.8 and rest above it
+
+What is the relationship between measure of central tendency and skewness- Central tendency is about mean, median mode but skewness is measure of asymmetry.i.e.
+a bell curve when divide into two, is symmetric. Asymmetric can be positively skewed - i.e. tail in positive direction... or outliers lies in positive side. or
+negatively skewed. 
+
+Now, relationship between cetran tendency and skewness-- if mean>median - positively skewed, if mean<median - negatively skewed.. mean=mode=median symmetric.
+
+When the interview asks describe your project , interviewer basically asks for these two information given by df.info() and df.describe()
+
+----------------------------------------------------------------
+
+PandasOperations.ipynb 
+
+----------------------------------------------------------------
+
+import numpy as np
+import pandas as pd
+import warnings
+warnings.filterwarnings("ignore")
+
+df = pd.read_csv("Studentsnew.csv")
+df
+
+Sequence of how we will learn about this data--------
+1.selecting single & multiple col
+2.creating a new col
+3.how to use apply method
+4.make selection with loc & iloc
+5.what is value counts
+6.filter
+7.deleting single or multiple cols
+8.deleting single or multiple rows
+9.setting & reseting the indexes
+
+------------------------------------
+1.selecting single & multiple col-----------
+
+df.head()
+
+df.Python # selecting python col. Now, col names are case sensitive
+
+Now, why we ask not to use dot notations is eg. Machine Learning col. It has space in it.
+
+df.Machine Learning # gives error
+
+df.MachineLearning # no such col exists.
+
+df["Machine Learning"]  # works fine. Selects single col.
+
+df[["Name", "Gender", "Python"]]  # Inside Double sq brackets , multiple col names -- for selecting multiple cols.
+
+----------------------------------------------------------------
+2.creating a new col
+----------------------------------------------------------------
+
+df.head()
+
+let's create a new col, total
+
+Now, we know that --
+
+"C" + "D"
+
+o/p 'CD'
+
+3+4
+
+o/p 7
+
+df["Python"] + df["Machine Learning"]  # due to vectorization marks will be added and we get sum of both the cols. This is a temporary change How to add this col
+                                       # to dictionary?
+
+------- Selecting multiple cols:------
+df[["Machine Learning","Python","Total"]]
+e.g.
+
+d = {} # empty dictionary created.
+
+d["a"] = 100
+
+d
+
+o/p: {'a': 100}
+
+In the same way, 
+
+df["Total"] = df["Python"] + df["Machine Learning"]
+
+df
+
+Here, we have first added two col, then added them Let's say we want to add a fresh col.
+
+cities = ["mumbai", "delhi", "pune", "chennai","mumbai", "pune", "chennai","delhi", "mumbai", "chennai"]
+len(cities)
+
+Now, we will add new col--
+
+df["City"] = cities
+
+df
+
+Now, in our df, new col City is added.
+
+----------------------------------------------------------
+
+3.how to use apply method
+
+----------------------------------------------------------
+apply is same as map function. Map function takes a function.. user defined function, or lambda function or an iterable.
+
+f=n^2 
+d=[1,2,3,4]
+map(f,d) # means [f(1),f(2),f(3),f(4)] gives [1,4,9,16]
+
+184 / 200 * 100
+
+Now, based on total we can create percentage wise grading.
+
+def getgrade(mark):
+  v = (mark/200)*100  # getting percentage
+
+  if(v>=75):
+    return "A"
+  elif(v>=60 and v<75):
+    return "B"
+  elif(v>=35 and v<60):
+    return "C"
+  else:
+    return "F"
+
+df["Total"].apply(getgrade)
+
+df["Grade"] = df["Total"].apply(getgrade)
+
+df
+
+-----------------------------------------------------------
+4.make selection with loc & iloc
+-----------------------------------------------------------
+
+df.head()
+
+loc---------location, label based
+iloc--------indexed location, index based
+
+s=pd.Series(["abcdef"],index=[49,48,47,0,1,2])
+s.loc[0] # value at index label 0
+s.iloc[0] # values at index location 0
+s.loc[0:1] # rows at index labels between 0 and 1 (inclusive)
+s.iloc[0:1] # rows at index location between 0 and 1 (exclusive) 
+
+
+both are used to create subset and slicing
+
+Now, lets say, I want to select non-tech word, which is under 1st index and col background
+
+df.loc[1, "Background"]
+
+o/p 'Non-Tech'
+
+if we want, total marks, city and grade col of Chandani and Rahul.
+
+df.loc[1:3, "Total":"Grade"]  # index no. 1 to 3, cols Total to Grade.. both start and end is included
+
+iloc-------- for same thing with iloc , we cannot use colname, instead use their index
+
+df.iloc[1, 4]  # u cannot pass names. Only index nos.
+
+o/p 'Non-Tech'
+
+if we want, total marks, city and grade col of Chandani and Rahul.
+
+df.iloc[1: 3, 7: 9]--------------# end excluded. Therefore,
+
+
+df.iloc[1:4, 7:]------------------- # gives  total marks, city and grade col of Chandani and Rahul.
+
+D/b loc and iloc is interview question.
+
+--------------------------------------------------------------
+5.what is value counts
+--------------------------------------------------------
+There are some categorical cols in dataset. What is the freq or strength of each category, u need valuecounts.  Gives total count of each value.
+
+Strength of technical and non technical students in background col.
+
+df["Background"].value_counts()
+
+Lets check what is the strength of gender in our classroom.
+
+df["Gender"].value_counts()
+
+What are different or unique cities in our col.
+
+df["City"].unique()
+
+Now, I want to know how many students are from each city.
+
+df["City"].value_counts()
+
+Now, valuecount can also be used like--
+
+df["Gender"].value_counts().plot(kind="line")   # doesnot give very meaningful result.
+
+df["Gender"].value_counts().plot(kind="bar")
+
+df["City"].value_counts().plot(kind="bar")
+
+df["City"].value_counts().plot(kind="pie", autopct="%.1f%%", explode=(0,0,0,0.1)) # autopct is autopercentage takes arg in string format-inside %%, .1 decimal value
+                                                                                  # after decimal point followed by % f is for float value.
+                                                                                  #if i want to take slice out of this pie, use explode
+
+										  
+---------------------------------------------------------
+pandfasoperations3.py
+--------------------------------------------------------
+6.filter
+------------------------------------------
+Before analyzing anything we need to ask question.
+
+df.head()
+
+
+df["Grade"].value_counts()
+
+o/p C 5
+    A 3
+    B 2
+
+This tells us that , majority of students are not focussed on their studies.And @ people are avg. That is , it is giving performance of the class..which is avg
+
+df["Grade"].value_counts().mean()  # which we can check--- This gives not avg but poor.
+
+Now, I want to filter out the data----------for answering following ques.
+
+#what is the avg score of the students live in mumbai
+#what is the avg score of the students live in delhi
+#what is the avg score of the students live in chennai
+#what is the avg score of the students live in pune
+
+Give me all those records, where city is Mumbai.
+
+df[df["City"]=="mumbai"] # returns all those records, where city= Mumbai , with all the cols
+
+From, all the cols, I want only total col.
+
+df[df["City"]=="mumbai"]["Total"] # fetching only the total col.
+
+Now, I want the mean of above result.
+
+1. Ans-> df[df["City"]=="mumbai"]["Total"].mean()
+
+Above steps is known as filtering of cols.
+
+2. Ans-> df[df["City"]=="delhi"]["Total"].mean()
+
+But, I don't want to keep on doing this again and again for every category.
+
+df.groupby("City")["Total"].mean() #use groupby. Group the data based on city col. This will return an object. I will select total col and then perform mean on it.
+
+But the result is not sorted as per avg, but as per City names.
+
+df.groupby("City")["Total"].mean().sort_values() # this will sort data based on avg values.
+
+df.groupby("City")["Total"].mean().sort_values(ascending=False)
+
+Plot the performance city wise--
+
+df.groupby("City")["Total"].mean().sort_values(ascending=False).plot(kind="bar")
+
+df.head()
+
+We can also sort the values based on age----
+
+df.sort_values("Age")
+
+df.sort_values(["Age", "Total"]) # first data is sorted based on age , then on total
+df.sort_values(["Age", "Total"],ascending=False).agg(['mean','min','max','count6666'])
+
+This was filtering and sorting.
+
+We can also do, aggregation
+
+df.groupby("City")["Total"].agg(["mean", "min", "max", "count"]) # the aggregation features that I need are mean, min, max and count.
+
+We can plot the above result as well--
+
+df.groupby("City")["Total"].agg(["mean", "min", "max", "count"]).plot(kind="bar")
+
+So, u should always form a question.
+
+Now, more on filtering. I want to know, what is the background of Chandani.
+
+df[df.Name=="Chandni"]["Background"]
+
+What is the grade of Chandani
+df[df.Name=="Chandni"]["Grade"]
+
+Where she lives
+
+df[df.Name=="Chandni"]["City"]
+
+U need to create questions and answer them.
+------------------------------------------
+7.deleting single or multiple cols
+----------------------------------------------
+df.head()
+
+df.drop("Grade", axis=1)# axis=1 to delete a col
+
+df # the above deletion is not permanent
+
+df.drop("Grade", axis=1,inplace=True)
+
+# deleting multiple cols.
+
+df.drop(["Age", "Background", "Total"], axis=1, inplace=True)
+
+Let's delete the row containing Gyanesh which is at index 2
+
+----------------------------------------------
+8.deleting single or multiple rows
+----------------------------------------------
+
+df.drop(2, axis=0, inplace=True)
+
+df
+
+Let's say I want to delete multiple rows..
+
+df.drop([4, 6, 8], axis=0, inplace=True)
+------------------------------------
+
+9.setting & reseting the indexes
+-------------------------------------
+
+df.reset_index()---# we got the new col for index, but we got old index as col.
+
+In order to make change permanent--
+
+df = df.reset_index(drop=True)
+
+
+If I want to make Rank col as index--
+
+df.set_index("Rank")
+df.head()
+
+----------------------------------------------
+
+=================================
+5.Probability_bayes-theorem
+=======================================
+
+See pbe.png inside folder
+-----------------------
+
+Let's say,I have cricket match.
+
+1st day-llll
+2nd day-wwll
+3rd day-wwww
+
+Now,What is the probability of win each day? day 1 -0,day 2 - 50, day 3-100
+
+i.e. when we talk about prob of an event= prob of a favourable outcome / total no.of observation.
+
+prob of win= 0/4=0
+prob of win 2nd day= 2/4=0.5
+prob of win 3rd day= 4/4=1
+
+prob of loss= (1-prob of win)= 1-0=1
+prob of loss 2nd day=1-0.5=0.5
+prob of loss 3rd day=1-1=0
+
+Also the value of prob lies between0 and 1.
+
+Conditional Probability-
+
+Explain with the helpof sets-
+
+At Itvedant, we have data science and web development. 50 students for DS,10 for both and 40 for WD.
+Now,I want the total count of pure DS students.
+Therefore,conditional prob P(A|B)is=(prob of A intersection B )/p(B)
+P(W)=40/100 because 100 is the total count.This is 40%.
+lly , (prob of D intersection W ) is 10/100, because 10 students are common for both.=0.1
+P(D|W)=0.1/0.4=0.25 
+
+-----------------
+3.Bayes Theorem
+------------------
+
+Now,Baye's Theorem is derived by conditionaltheorem,hence it's very imp.to understand Conditional prob first.
+
+It is imp because,it is one of the m/c learning algo. Formula of Baye's theorem is like conditional prob only.
+
+P(A|B)=(P(B|A).P(A))/P(B)==> what is the prob of A when B has occured.
+
+Now  formula for Conditional Prob is  
+
+P(B|A)=(prob of A intersection B )/p(A)===>(prob of A intersection B )=P(B|A)*p(A)
+lly,P(A|B)=(prob of A intersection B )/p(B)=====>(prob of A intersection B )=P(A|B)*p(B)
+======>P(A|B)*p(B)=P(B|A)*p(A)
+======>P(A|B)=(P(B|A).P(A))/P(B)
+
+But why is this imp?
+
+Remember what exactly this theorem does- P(A|B) or posterior analysis is the (likelihood * prior)/evidence
+
+A and B are events that are happening.Prob(A|B) is Prob of A such that B is True. Prob(B|A) is Prob of B such that A is True.
+P(A), P(B) are independent probabilities.
+
+Bayes theorem tell is update the prior knowledge with new information.
+
+If I have taught something to m/c and something happened and concept got changed ,then feed this new info to m/c ,so that m/c updates itself.
+
+Now, give me a minute particle.With every wordthe meaning of sentence is changing. Previously it was about time, now,it'sabout size.
+
+The moment I added word particle, it'snot about time anymore. It's about size.
+
+====================
+6. Inferential Statistics
+=======================
+1.SetTheory-
+
+2.De-Morgan's Law:
+A={1,2,3,4,5}
+B={4,5,6,7,8}
+A'={6,7,8,9,10}
+B'={1,2,3,9,10}
+
+(A U B)'=A' intersection B'={9,10}
+This is DeMorgan's first law. - (A U B)'=A' intersection B'
+
+(A intersection B)'=A' U B' -{1,2,3,6,7,8,9,10}
+
+Descriptive Statistics and Inferential Statistics: Both helps in understanding data.
+
+Chi-sq test:
+-------------
+Q.> Whether the gender of person decides what type of vehicle they should buy?
+
+For this, we need buyer's data from automobile company. Now, there are 2 categories- bike and scooty. And there are 2 cols as well Male and Female.
+20 males bought bike and 1 female bought bike.
+15 females bought scooty and 2 bought scooty.
+
+Now, we have 21 bikes sold and 17 scooty. Overall 38 vehicles sold to 38 person. Total bikes sold is 21 and scooty sold is 17. Total 22 males and 16 females.
+Now, we need to decide if gender has a role to play in vehicle selling?
+Now, we have many tests like chi sq test, many more tests like- ANOVA, regression, t-test,z-test. 
+
+
+What is the % of male present=22/38*100=57%
+
+What is the % of female present=16/38*100=43%
+
+Now, 57% of 21=11.97=> as per our estimation ther should be 12 male who should bring bike
+
+lly,43%of 21=>9 =>as per our estimation ther should be 9 female who should bring bike
+
+But anyone can buy anything, i.e to be neutral, i.e. 
+
+
+lly, 57% of 17=9.69=10 male who should boughht scooty
+
+43%of 17=7.3 females should bring study.
+
+
+Now, 20,1,2 and 15 are Actual values or observed values . And 11.9,9,9.69,7.31 are the estimated or expected values. But this doesnot match with actual values.
+
+In the actual chi sq test, there is null hypothesis, H0- let's say it says- the gender decides what type of vehicle a person should buy.
+and, H1-gender doesnot decide what type of vehicle, person should buy.. These are my two assumptions or hypothesis.
+
+X^2=or chi sq= summation of observed values-expected values, divide by summation of estimated values.
+
+chi-sq=(20-11.9)^2+(1-9)^2+(2-9.69)^2+(15-7.31)^2/11.9+9+9.69+7.31
+chi-sq=6.54 
+Now, to decide which hypothesis is correct, we need critical value and for that we need degree of freedom. or DoF- which is calculated by what is the
+no. of rows and cols. 
+DoF=(Row-1)*(Col-1)
+   , In our problem we got 2 rows and 2 cols. Therefore,
+DoF=(2-1)*(2-1)=1
+
+Now, I
+let's suppose my hypothesis is correct.That is  gender decides which vehicle will be purchased . Then how confident I am with this hypothesis. What is the ratio?
+For that, we have Confidence-Level, 90% or 0.90, 95% or 0.95 confidence, etc.
+Now, level of significance = (1-Level of confidence)==>(1-0.90)=0.10
+
+***** refer chi -sq table probabilities.******
+
+Now, to get critical value, refer to chi sq table probabilities., where cols is level of significance and rows, 1,2,3,4,etc is degree of freedom.
+
+We have 1 degree of freedom, and level of significance, selecting values for 90%,95% 97% and 99%. VAlues are-
+
+2.706,3.841,5.024,6.635
+
+Now, how to evaluate this - check critical value and chi sq value. the critical value should be close to chi sq value i.e. 6.54 and should always be less than this no.
+2.706 is very less than 6.54 and 6.635 is > 6.54, 5.024 is close to and less than 6.54. Therefore by 97% confidence, we can say that gender plays an imp role in 
+deciding which vehicle will be brought by which gender, But, if u change this data, then conclusion might change. critical value<chi sq value, therefore, we can except 
+null hypothesis.
+
+-----------
+ANOVA --- is an abbreviation for ANalysis Of VAriance
+-----------
+
+Let's say we have done a running speed test. And There are 4 or 5 observations. Let's say 4 men are running after drinking following. THeir speed on different days-
+
+    Water    Alcohol   Coffee
+	4	2	8
+	5	1	9
+	5	1	9
+	6	1	10
+
+Now, if we take out the mean values--
+Water-5
+Alcohol-1.5
+Coffee-9
+
+Now, within cols sctatterness or variance is less.
+
+but,variance between col is more.
+
+therefore, 
+therefore, f1-score= var between col / var within col  i.e. f1 score is more because variance between col is more and var within col is less .
+
+
+Now, whole ML is based on this concept- which is bias-variance trade off. 
+
+Water  Alcohol  Coffee
+1	1	1
+2	1	2
+5	6	5
+10	9	10
+
+Now, variance within the col is- 5,5,5 for each, variance within col is more, between col is less.
+
+therefore, f1-score= var between col / var within col
+
+therefore, f1-score= var between col / var within col  i.e. f1 score is less because variance between col is less and var within col is more .
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+ 
+
+
