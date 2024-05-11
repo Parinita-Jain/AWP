@@ -254,6 +254,11 @@ Numpy is python's external module , u first need to  install it.
 
 python -m pip install jupyter
 
+NumPy is a fundamental package for scientific computing with Python. It provides support for arrays, which are similar to lists in Python but with additional functionalities optimized for numerical operations. NumPy arrays are more efficient for numerical computations compared to Python lists because they allow for vectorized operations and are implemented in C.
+
+NumPy also provides functions for creating arrays of various shapes and sizes, as well as for performing various mathematical operations on arrays, linear algebra operations, Fourier transforms, random number generation, and much more. It's widely used in fields such as data science, machine learning, physics, engineering, and finance, among others.
+
+
 
 “ndarray,”  is shorthand for “N-dimensional array.” An N-dimensional array is simply an array with any number of dimensions.
 You might also hear 1-D, or one-dimensional array, 2-D, or two-dimensional array, and so on. The NumPy ndarray class is used to represent both matrices and vectors. 
